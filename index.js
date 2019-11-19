@@ -19,7 +19,6 @@ module.exports = {
     const files = fs.readdirSync(dataPath);
     const readPromises = [];
     for (let i = 0; i < files.length; i++) {
-      // FIXME read stream instead
       readPromises.push(readFileAsync(path.join(dataPath, files[i]), 'utf-8'));
     }
     const res = await Promise.all(readPromises);

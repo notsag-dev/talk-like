@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const lyrics = require('../../lyrics-corpus/');
+const lyrics = require('lyrics-corpus');
 const chatty = require('../');
 const readline = require('readline');
 

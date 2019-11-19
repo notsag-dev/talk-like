@@ -30,7 +30,7 @@ module.exports = {
    *
    */
   getCleanWord(word) {
-    return word.replace(/[^A-zÀ-ú]/g, '').toLowerCase();
+    return word.replace(/[^A-zÀ-ú']/g, '').toLowerCase();
   },
 
   /**
@@ -48,7 +48,7 @@ module.exports = {
     corpus.forEach(text => {
       const words = text.split(/[\s+]/).map(w => this.getCleanWord(w));
       for (let i = 1; i < words.length; i++) {
-        const w = words[i].replace(/[^A-zÀ-ú]/g, '');
+        const w = words[i];
         if (!w) {
           continue;
         }

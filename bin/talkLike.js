@@ -26,6 +26,7 @@ const talkLike = async (artistName, numSongs = 20) => {
   const corpus = await lyrics.generateLyricsCorpus(artistName, '', numSongs, true, false);
   if (!corpus.length) {
     console.log('Artist not found.');
+    return;
   }
   const artist = Object.create(chatty);
   artist.init();

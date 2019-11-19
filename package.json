@@ -1,6 +1,6 @@
 {
   "name": "talk-like",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Talk like your favorite singer!",
   "main": "index.js",
   "scripts": {

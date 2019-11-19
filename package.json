@@ -1,6 +1,6 @@
 {
   "name": "talk-like",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Talk like your favorite singer!",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,9 @@
   },
   "bin": {
     "talk-like": "./bin/talkLike.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/notsag-dev/talk-like.git"
   }
 }

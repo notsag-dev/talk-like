@@ -1,6 +1,6 @@
 {
   "name": "talk-like",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Talk like your favorite singer!",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "author": "notsag-dev",
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "lyrics-corpus": "^1.0.2",
+    "lyrics-corpus": "^1.0.3",
     "mocha": "^6.2.2"
   },
   "bin": {

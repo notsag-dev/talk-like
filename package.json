@@ -11,7 +11,7 @@
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "lyrics-corpus": "^1.0.3",
-    "mocha": "^6.2.2"
+    "mocha": "^10.2.0"
   },
   "bin": {
     "talk-like": "./bin/talkLike.js"
